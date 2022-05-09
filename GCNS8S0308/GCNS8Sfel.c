@@ -3,9 +3,7 @@
 #include <stdlib.h>
 #include <sys/types.h>
 #include <sys/wait.h>
-//pico 1_system.c
-//cc 1_system.c -o 1_system.out
-// ./1_system.out
+
 int main(void){
     int status;
 
