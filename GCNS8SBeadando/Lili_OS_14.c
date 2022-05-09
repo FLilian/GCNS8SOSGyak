@@ -1,11 +1,5 @@
 
-/*14. Irjon C nyelvu programokat, ami
-    hozzon letre egy osztott memoria szegmenst
-    a felhasznalotol olvasson be szoveget, es ezt irja be az osztott memoria teruletere es kuldjon signalt a fogado
-    felnek, hogy kesz az uzenet (SIGUSR1)
-    (segitsegkeppen a masik program pid-je fixen beleteheto a programba)
-    a masik program pedig olvass ki az osztott mem szegmensbol, de csak egy adott signal hatasara (SIGUSR1)
-    vegul szuntesse meg az shm szegmenst*/
+
 
 #include<stdio.h>
 #include<unistd.h>
